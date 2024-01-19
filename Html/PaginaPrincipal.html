@@ -1,0 +1,212 @@
+<!--
+    Autor: Torres Rocha Luis
+    Fecha: 3-Octubre-2023
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Skying - Agencia de viajes</title>
+
+        <!--Archivos css externos-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- Archivo css creado personalizable-->
+        <link rel="stylesheet" type="text/css" href="../Css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <a href="#" class="logo"><span>S</span>kying</a>
+            <div class="navmenu">
+                <a href="#inicio">Inicio</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#acerca">Acerca de nosotros</a>
+                <a href="https://www.despegar.com.mx/vuelos/pais/espana">Vuelos</a>
+            </div>
+            <div ></div>
+        </header>
+
+        <!--Seccion de inicio -> Carrusel de imagenes-->
+        <section class="inicio" id="inicio">
+            <div class="swiper inicio-slider">  
+                <div class="swiper-wrapper"> 
+                
+                    <div class="swiper-slide slide" style="background:url(../Images/slide-8.jpg) no-repeat">
+                        <div class="content">
+                            <span> Explora, sueña, viaja, repite</span>
+                            <h3>tu aventura comienza aqui</h3>
+                            <a href="#destinos" class="btn">Descubre mas</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background:url(../Images/slide-2.jpg) no-repeat">
+                        <div class="content">
+                            <span> Explora, sueña, viaja, repite</span>
+                            <h3>viaja más, preocupate menos</h3>
+                            <a href="#destinos" class="btn">Descubre mas</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background:url(../Images/slide-3.jpg) no-repeat">
+                        <div class="content">
+                            <span> Explora, sueña, viaja, repite</span>
+                            <h3>tu próxima aventura te espera</h3>
+                            <a href="#destinos" class="btn">Descubre mas</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background:url(../Images/slide-7.jpg) no-repeat">
+                        <div class="content">
+                            <span> Explora, sueña, viaja, repite</span>
+                            <h3>deja que tus sueños despeguen</h3>
+                            <a href="#destinos" class="btn">Descubre mas</a>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="destinos" id="destinos">
+            <h1 class="heading">
+                <span>d</span> 
+                <span>e</span> 
+                <span>s</span> 
+                <span>t</span> 
+                <span>i</span>
+                <span>n</span>
+                <span>o</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="../Images/New York.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> United States</h3>
+                        <p> Este viaje a Estados Unidos te llevará por una aventura inolvidable 
+                            llena de maravillas naturales, emocionantes ciudades y experiencias culturales. 
+                            Desde la costa este hasta la costa oeste, cada día será una nueva oportunidad 
+                            para descubrir la grandeza de este país diverso y dinámico. </p>
+                        <div class="estrellas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="precio"> $40000.00 <span>$70000.00</span></div>
+                        <a href="#" class="btn">mas info</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../Images/Francia.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> Francia</h3>
+                        <p> Este viaje a Francia te ofrecerá una experiencia inolvidable llena de 
+                            historia, cultura y belleza. Desde las luces de París hasta 
+                            los viñedos de Borgoña, cada día será una nueva aventura. 
+                            Prepara tus sentidos para una experiencia que satisfará 
+                            tu alma viajera y te dejará con recuerdos que atesorarás para siempre. </p>
+                        <div class="estrellas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="precio"> $40000.00 <span>$70000.00</span></div>
+                        <a href="#" class="btn">mas info</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../Images/Spain.jpg" alt="">
+                    <div class="content">
+                        <h3><i class="fas fa-map-marker-alt"></i> España</h3>
+                        <p>¡Bienvenido a la tierra del sol, la cultura vibrante y la exquisita gastronomía! 
+                            España te espera con los brazos abiertos para llevarte en un viaje emocionante 
+                            a través de su rica historia, su hermoso paisaje y su animada escena cultural.</p>
+                        <div class="estrellas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="precio"> $40000.00 <span>$70000.00</span></div>
+                        <a href="../Html/Detalles.html" class="btn">mas info</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!--Seccion acerca de nosotros -->
+        <section class="inicio-acerca" id="acerca">
+            <div class="imagen">
+                <img src="../Images/AcercaDe.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Acerca de nosotros</h3>
+                <p> En Skying, no solo organizamos viajes; creamos experiencias que se 
+                    quedan contigo para toda la vida. Nuestra pasión por explorar el mundo 
+                    y nuestra dedicación a ofrecer aventuras inolvidables nos han convertido 
+                    en una agencia de viajes de confianza para viajeros de todas partes. </p>
+                <a href="../Html/AcercaNosotros.html" class="btn">conoce más</a>
+            </div>
+        </section>
+
+        <!--Seccion para el pie de pagina (footer) -->
+        <section class="footer">
+            <div class="footer-contenedor">
+                <div class="contenedor">
+                    <h3>quick links</h3>
+                    <a href="#inicio"> <i class="fas fa-angle-right"></i>inicio</a>
+                    <a href="#destinos"> <i class="fas fa-angle-right"></i>destinos</a>
+                    <a href="#acerca"> <i class="fas fa-angle-right"></i>acerca de nosotros</a>
+                    <a href="https://www.despegar.com.mx/vuelos/pais/espana"> <i class="fas fa-angle-right"></i>vuelos</a>
+                </div>
+
+                <div class="contenedor">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-angle-right"></i>preguntas frecuentes</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i>acerca de nosotros</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i>politicas de privacidad</a>
+                    <a href="#"> <i class="fas fa-angle-right"></i>terminos y condiciones</a>
+                </div>
+
+                <div class="contenedor" id="contactanos">
+                    <h3>Contactanos</h3>
+                    <a href="#"> <i class="fas fa-phone"></i>+52-477-981-53-46</a>
+                    <a href="#"> <i class="fas fa-phone"></i>+52-477-981-65-92</a>
+                    <a href="#"> <i class="fas fa-envelope"></i>skyingTravel@gmail.com</a>
+                    <a href="#"> <i class="fas fa-map"></i>León, Guanajuato - 37410</a>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Siguenos</h3>
+                    <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i>facebook</a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i>twitter</a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>instagram</a>
+                    <a href="https://www.youtube.com/@ourplanet4k"><i class="fab fa-youtube"></i>youtube</a>
+                </div>
+            </div>
+            <div class="creditos"> Elaborada por <span>Luis Torres</span> | derechos reservados. </div>
+        </section>
+
+        <!-- Script para la animacion del carrusel, en este caso hacemos uso de un js externo -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!-- Script escrito por mi-->
+        <script type="text/javascript" src="../Js/Script.js"></script>
+    </body>
+</html>

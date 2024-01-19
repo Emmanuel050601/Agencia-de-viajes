@@ -1,0 +1,302 @@
+/*
+    Autor: Torres Rocha Luis
+    Fecha. 3-Octubre-2023
+*/
+.bntn{
+    display: inline-block;
+    background: #D5DCD1;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: #52796F;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.bntn:hover{
+    background: #84A98C;
+}
+
+.detalle-pais {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0;
+}
+
+.detalle-pais .info-politica h2{
+    font-size: 2rem;
+    color: #D5DCD1;
+    padding: 2rem 2rem;
+}
+
+.detalle-pais .info-politica h3{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #D5DCD1;
+}
+
+.detalle-pais .info-politica p{
+    font-size: 1.4rem;
+    color: #D5DCD1;
+}
+
+.detalle-pais .content{
+    flex: 6 1 40rem;
+}
+
+.detalle-pais  p{
+    font-size: 1.7rem;
+    color: var(--green);
+}
+
+.detalle-pais .info-politica{
+    flex: 0 1 25rem;
+    flex-wrap: wrap;
+    text-align: center;
+    background: var(--green);
+}
+
+.detalle-pais .info-politica .cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 0 2rem;
+}
+
+.detalle-pais .info-politica .imagenes{
+    display: flex;
+    flex-direction: row;
+}
+
+.detalle-pais .info-politica .cont .habitantes{
+    padding: 0 2rem ;
+}
+
+.detalle-pais .info-politica .cont .capital{
+    padding: 0 2rem ;
+}
+
+.detalle-pais .info-politica .cont .idioma{
+    padding: 0 2rem ;
+}
+
+.detalle-pais .info-politica .cont .moneda{
+    padding: 0 2rem ;
+}
+
+.detalle-pais .info-politica .cont .forma-gobierno{
+    padding: 0 2rem ;
+}
+
+.detalle-pais .info-politica .cont .visa{
+    padding: 0 2rem ;
+}
+
+.detalle-pais .info-politica img{
+    width: 10rem;   
+}
+
+.detalle-pais .info-politica img:hover{
+    transform: scale(2,2);  
+}
+
+.detalle-pais .btn{
+    display: inline-block;
+    background: #84A98C;
+    margin-top: 6rem;
+    color: #D5DCD1;
+    font-size: 1.7rem;
+    padding: 1rem 3rem ;
+    cursor: pointer;
+}
+
+.detalle-pais .btn:hover{
+    background: #52796F;
+}
+
+.detalle-pais .content .principal .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detalle-pais .content .principal{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.5rem 2rem;   
+}
+
+.detalle-pais .content .principal .imagen-Pais{
+    width: 62%;
+    height: 95%;
+    flex: 1 1 10rem;
+}
+
+.detalle-pais .content .principal .imagen-Pais img {
+    width: 70%;
+}
+
+.detalle-pais .content .principal .historia{
+    flex: 1 1 5rem;
+    padding: 2rem;
+}
+
+.turismo h3{
+    background: #84A98C;
+    font-size: 3rem;
+    color: #D5DCD1;
+}
+
+.turismo{
+    padding: 5rem;
+}
+
+.lugares, .comidas{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.lugar, .comida{
+    position: relative;
+    width: 325px;
+    height: 450px;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.imagen-lugar, .imagen-comida{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagen-lugar img, .imagen-comida img{
+    width: 100%;
+}
+
+.imagen-lugar::before, .imagen-comida::before {
+    content: '';
+    position: absolute;
+    bottom: -45%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.detalles{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5em 1.5em 2em;
+    background: #000a;
+    backdrop-filter: blur(16px) saturate(120%);
+    transition: .3s;
+    color: #fff;
+    z-index: 2;
+}
+
+.detalles h1{
+    font-size: 1.8rem;
+    color: #D5DCD1;
+}
+
+.detalles h2{
+    font-size: 1.4rem;
+    color: #84A98C;
+    padding: 1rem 1rem;
+}
+
+.detalles p{
+    font-size: 1.2rem;
+    color: #D5DCD1;
+}
+
+.lugar:hover .detalles, .comida:hover .detalles{
+    bottom: 0;
+}
+
+.lugares-turisticos, .lugares, .comidas{
+    padding: 5rem 0;
+}
+
+.cTradiciones{
+    width: 50%;
+}
+
+.cTradiciones .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.cTradiciones .slide .content {
+    display: flex;
+    align-items: center;
+    background-color: #84A98C;
+}
+
+.cTradiciones .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.cTradiciones .text h2 {
+    color: #D5DCD1;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.cTradiciones .text p {
+    color: #D5DCD1;
+    font-size: 2rem;
+}
+
+.cTradiciones .slide .content img{
+    max-width: 50%;
+    height: auto;
+}
+
+
+.slide:nth-child(even) .content {
+    flex-direction: row-reverse;
+    background-color: #84A98C;
+}
+
+
+.slide .content .btn {
+    animation: fadeIn .3s linear backwards .6s;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    top: 45rem;
+    background: #D5DCD1;
+    color: #52796F;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background: #84A98C;
+    color: #D5DCD1;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    font-size: 2rem;
+}
